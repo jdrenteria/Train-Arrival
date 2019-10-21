@@ -1,23 +1,20 @@
 $(document).ready(function(){
-   
-   
-      // Your web app's Firebase configuration
+   // Your web app's Firebase configuration
       var firebaseConfig = {
-        apiKey: "AIzaSyC80FwJ63qcH9ihZKSE4fsRKVlYldY75wE",
-        authDomain: "train-schedules-fd959.firebaseapp.com",
-        databaseURL: "https://train-schedules-fd959.firebaseio.com",
-        projectId: "train-schedules-fd959",
-        storageBucket: "train-schedules-fd959.appspot.com",
-        messagingSenderId: "265615011212",
-        appId: "1:265615011212:web:742d515f753ae9dfe63aa9",
-        measurementId: "G-1T5JV7HZDM"
+        apiKey: "AIzaSyBvYa3JWq2OwytjsNKzsaQJXVABCMU36N4",
+        authDomain: "train-arrivals-72b28.firebaseapp.com",
+        databaseURL: "https://train-arrivals-72b28.firebaseio.com",
+        projectId: "train-arrivals-72b28",
+        storageBucket: "train-arrivals-72b28.appspot.com",
+        messagingSenderId: "413031673785",
+        appId: "1:413031673785:web:830272b03b4b2f831f1068",
+        measurementId: "G-M535F861Z2"
       };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
-      console.log(firebase);
-    
-// A variable to reference the database.
-    var database = firebase.database();
+      var database = firebase.database();
+      
+   
 
     // Variables for the onClick event
     var name;
@@ -30,7 +27,7 @@ $(document).ready(function(){
         // Storing and retreiving new train data
         name = $("#train-name").val().trim();
         destination = $("#destination").val().trim();
-        firstTrain = $("#first-train").val().trim();
+        firstTrain = $("#first-train-time").val().trim();
         frequency = $("#frequency").val().trim();
 
         // Pushing to database
