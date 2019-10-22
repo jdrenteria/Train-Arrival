@@ -1,5 +1,7 @@
 .panel{
-	width: 100%;
+	width: 50%;
+	margin-left: 320px;
+	
 }
 
 .jumbotron{
@@ -7,33 +9,41 @@
 	text-align: center;
 	/* Find light color of success panel */
 	padding-top: 1%;
-	padding-bottom: 2%;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	padding-bottom: 1%;
+	font-family: 'Baloo Bhai';
+	width: 50%;
+	margin-left: 320px;
 }
-
 .panel-heading{
 	padding-top: 0.25%;
 	background-color: lightblue;
+	text-align: center;
 }
 
 .container{
 	background-image: url(../images/eMKbZVy.jpg);
 	background-size: cover;
-
-
-}
-
-.form-section{
-	text-align: left;
-
+	background-position: center;
+	position: relative;
+	width: 100%;
 }
 
 .control{
-	width: 600px;
-	position: relative;
+	width: 90%;
+	position: center;
+	
 }
 .schedule-table{
 	margin: 2%;
-	text-align: left;
-	
+	text-align: center;
+	column-gap: 10px;
 }
+.btn{
+
+	margin: 10px;
+}
+
+.td, th {
+padding: 10px; 
+}
+
