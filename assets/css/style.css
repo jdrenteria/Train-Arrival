@@ -3,13 +3,37 @@
 }
 
 .jumbotron{
-	background-color: #5cb85c;
+	background-color:lightblue;
+	text-align: center;
 	/* Find light color of success panel */
-	color: #eeeecc;
 	padding-top: 1%;
 	padding-bottom: 2%;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .panel-heading{
 	padding-top: 0.25%;
+	background-color: lightblue;
+}
+
+.container{
+	background-image: url(../images/eMKbZVy.jpg);
+	background-size: cover;
+
+
+}
+
+.form-section{
+	text-align: left;
+
+}
+
+.control{
+	width: 600px;
+	position: relative;
+}
+.schedule-table{
+	margin: 2%;
+	text-align: left;
+	
 }

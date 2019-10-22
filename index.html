@@ -18,17 +18,17 @@
 <body>
     <!-- Need a header for the page. -->
     <div class="container">
-        <div class="jumbotron text-center bg-success text-white">
+        <div class="jumbotron">
             <h1>
                 ALLL ABOAARDD!!!!
             </h1>
         </div>
         <!-- Table for train schedules -->
-        <div class="panel panel-success text success">
-            <div class="panel-heading">
+        <div class="panel">
+            <div class="panel-heading panel-info text-info">
                 <h3>Train Schedules</h3>
             </div>
-            <div class="panel-body">
+            <div class="panel-body panel-info text-info">
                 <table class="schedule-table">
                     <thead>
                         <tr>
@@ -49,7 +49,7 @@
         <!-- Table to put new train on schedule -->
         <div class="panel panel-info text-info">
             <div class="panel-heading">
-                <h3>Add Train</h3>
+                <h3>Train Addition</h3>
             </div>
             <div class="panel-body">
                 <form>
@@ -57,12 +57,13 @@
                         <label for="text">Train Name</label>
                         <input type="text" class="control" id="train-name">
                     </div>
+                    
                     <div class="form-section">
                         <label for="text">Destination</label>
                         <input type="text" class="control" id="destination">
                     </div>
                     <div class="form-section">
-                        <label for="text">First Train Time (HH:mm -Military Time)</label>
+                        <label for="text">First Train Time (Military Time)</label>
                         <input type="text" class="control" id="first-train-time">
                     </div>
                     <div class="form-section">
